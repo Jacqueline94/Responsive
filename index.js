@@ -1,8 +1,14 @@
-var http = require("http");
-http.createServer(function (req,res) {
-	res.writeHead(200,{"Content-Type":"text/html"});
-	res.write("<h1>Node.js</h1>");
-	res.write("<p>Hello World</p>");
-	res.end("<p>beyondweb.cn</p>");
-}).listen(3000);
-console.log("HTTP server is listening at port 3000.");
+var header_findlist = document.getElementById('header_findlist');
+var cancel = document.getElementById('cancel');
+	header_findlist.addEventListener("touchstart", function(e){
+     	document.getElementById('background').style.display = "block";
+	});
+	cancel.addEventListener("touchstart", function(){
+     	document.getElementById('background').style.display = "none";
+     	document.getElementById('cancel').style.color = "#8dda5e";
+	});
+var nav_one = document.getElementById('nav_one');
+	nav_one.addEventListener("touchstart", function(){
+     	document.getElementById('nav_tow').style.display = "block";
+     	document.getElementById('background').style.display = "block";
+	});

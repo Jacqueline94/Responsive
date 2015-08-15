@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 108px;
 }
 body {
   width: 100%;
@@ -17,33 +17,35 @@ body {
   /* iOS 4.1- */
 }
 .header {
-  height: 36rem;
+  width: 100%;
 }
 .header .empty {
-  height: 7.2rem;
+  width: 100%;
+  height: 0.66rem;
   background-color: #000;
 }
 .header .header_top {
-  height: 14.4rem;
+  height: 1.33rem;
   background-color: #f3f3f3;
 }
 .header .header_top span {
-  line-height: 14.4rem;
+  line-height: 1.33rem;
   float: left;
-  margin-left: 5.1rem;
-  font-size: 6rem;
+  margin-left: 0.47rem;
+  font-size: 0.55rem;
 }
 .header .header_top a {
   float: right;
+  margin-top: 0.38rem;
+  margin-right: 0.6rem;
   text-decoration: none;
 }
-.header .header_top a .iconfont {
-  font-family: "iconfont";
-  font-size: 16px;
-  font-style: normal;
+.header .header_top a img {
+  width: 0.66rem;
+  height: 0.6rem;
 }
 .header .nav {
-  font-size: 4.8rem;
+  font-size: 0.44rem;
   overflow: hidden;
   background-color: #333333;
 }
@@ -54,25 +56,24 @@ body {
 }
 .header .nav ul li {
   float: left;
-  /*width: 24.99%;*/
 }
 .header .nav ul li a {
-  margin-left: 9.1rem;
+  margin-left: 0.84rem;
   text-decoration: none;
-  line-height: 14.4rem;
+  line-height: 1.33rem;
   color: #999999;
 }
 .header .nav ul li #nav1,
 .header .nav ul li #nav2,
 .header .nav ul li #nav3 {
-  margin-right: 9.1rem;
+  margin-right: 0.84rem;
 }
 .advertisement {
   background-color: #eaeaea;
 }
 .advertisement img {
-  margin-top: 3.1rem;
-  margin-bottom: 1.4rem;
+  margin-top: 0.28rem;
+  margin-bottom: 0.12rem;
   width: 100%;
   height: 100%;
 }
@@ -80,74 +81,68 @@ body {
   background-color: #eaeaea;
 }
 .mid .ad1 {
-  border: 0.1rem solid #dddddd;
+  border: 0.01rem solid #dddddd;
   background-color: #fff;
 }
 .mid .ad1 .personal_deta {
   margin: auto;
-  width: 98.4rem;
-  height: 21.7rem;
-  margin-top: 6.7rem;
-  border-bottom: 0.1rem solid #cccccc;
+  width: 9.11rem;
+  height: 2rem;
+  margin-top: 0.62rem;
+  border-bottom: 0.01rem solid #cccccc;
 }
 .mid .ad1 .personal_deta img {
   float: left;
-  margin-right: 2.3rem;
-  width: 14.6rem;
-  height: 14.6rem;
+  margin-right: 0.21rem;
+  width: 1.35rem;
+  height: 1.35rem;
 }
 .mid .ad1 .personal_deta .deta div {
   overflow: hidden;
 }
 .mid .ad1 .personal_deta .deta div .name {
   float: left;
-  font-size: 4.8rem;
+  font-size: 0.44rem;
   color: #212121;
 }
-.mid .ad1 .personal_deta .deta div .iconfont {
-  font-size: 4.8rem;
-  color: #ff607a;
+.mid .ad1 .personal_deta .deta div img {
+  margin: 0.12rem;
+  width: 0.44rem;
+  height: 0.44rem;
 }
 .mid .ad1 .personal_deta .deta div .category {
   float: right;
   text-align: center;
-  width: 9.3rem;
-  height: 4.5rem;
-  font-size: 3.6rem;
+  width: 0.86rem;
+  height: 0.41rem;
+  font-size: 0.33rem;
   background-color: #c4c4c4;
   color: #fff;
-  border-radius: 1.8rem;
+  border-radius: 0.17rem;
 }
 .mid .ad1 .personal_deta .deta p {
-  font-size: 3.6rem;
+  font-size: 0.33rem;
   color: #666666;
 }
 .mid .ad1 .content {
   margin: auto;
-  width: 98.4rem;
-  margin-top: 2.4rem;
+  width: 9.11rem;
+  margin-top: 0.22rem;
   overflow: hidden;
 }
 .mid .ad1 .content .message {
   margin: 0px;
-  font-size: 4.8rem;
+  font-size: 0.44rem;
   color: #212121;
 }
 .mid .ad1 .content div {
-  font-size: 3.6rem;
+  font-size: 0.33rem;
 }
-.mid .ad1 .content div i {
+.mid .ad1 .content div img {
   float: left;
-  margin-right: 2.6rem;
-}
-.mid .ad1 .content div .iconfont1 {
-  color: #44d48b;
-}
-.mid .ad1 .content div .iconfont2 {
-  color: #4ea1ff;
-}
-.mid .ad1 .content div .iconfont3 {
-  color: #ff7660;
+  margin-right: 0.24rem;
+  width: 0.33rem;
+  height: 0.33rem;
 }
 .mid .ad1 .content div .how {
   float: left;
@@ -162,97 +157,96 @@ body {
 }
 .mid .ad1 .bottom {
   overflow: hidden;
-  font-size: 3.6rem;
-  margin-top: 5.4rem;
-  margin-bottom: 2.5rem;
+  font-size: 0.33rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.23rem;
 }
 .mid .ad1 .bottom .apply {
-  margin-left: 9.7rem;
+  margin-left: 0.89rem;
 }
 .mid .ad1 .bottom .review {
-  margin-left: 7.4rem;
+  margin-left: 0.68rem;
 }
 .mid .ad1 .bottom .like {
-  margin-left: 11rem;
+  margin-left: 1rem;
 }
 .mid .ad1 .bottom div {
   float: left;
-  width: 26.2rem;
+  width: 2.42rem;
 }
 .mid .ad1 .bottom div span {
-  margin-left: 3rem;
-  margin-right: 9.8rem;
+  margin-right: 0.9rem;
+}
+@media screen and (min-width: 320px) and (max-width: 350px) {
+  .mid .ad1 .bottom div span {
+    margin-right: 0.75rem;
+  }
 }
 .mid .ad2 {
   background-color: #fff;
-  border: 0.1rem solid #dddddd;
-  margin-top: 2.4rem;
+  border: 0.01rem solid #dddddd;
+  margin-top: 0.22rem;
+  overflow: hidden;
 }
 .mid .ad2 .persona2_deta {
   margin: auto;
-  width: 98.4rem;
-  height: 21.7rem;
-  margin-top: 6.7rem;
-  border-bottom: 0.1rem solid #cccccc;
+  width: 9.11rem;
+  height: 2rem;
+  margin-top: 0.62rem;
+  border-bottom: 0.01rem solid #cccccc;
 }
 .mid .ad2 .persona2_deta img {
   float: left;
-  margin-right: 2.3rem;
-  width: 14.6rem;
-  height: 14.6rem;
+  margin-right: 0.21rem;
+  width: 1.35rem;
+  height: 1.35rem;
 }
 .mid .ad2 .persona2_deta .deta div {
   overflow: hidden;
 }
 .mid .ad2 .persona2_deta .deta div .name {
   float: left;
-  font-size: 4.8rem;
+  font-size: 0.44rem;
   color: #212121;
 }
-.mid .ad2 .persona2_deta .deta div .iconfont {
-  font-size: 4.8rem;
-  color: #ff607a;
+.mid .ad2 .persona2_deta .deta div img {
+  margin: 0.12rem;
+  width: 0.44rem;
+  height: 0.44rem;
 }
 .mid .ad2 .persona2_deta .deta div .category {
   float: right;
   text-align: center;
-  width: 9.3rem;
-  height: 4.5rem;
-  font-size: 3.6rem;
+  width: 0.86rem;
+  height: 0.41rem;
+  font-size: 0.33rem;
   background-color: #c4c4c4;
   color: #fff;
-  border-radius: 1.8rem;
+  border-radius: 0.16rem;
 }
 .mid .ad2 .persona2_deta .deta p {
-  font-size: 3.6rem;
+  font-size: 0.33rem;
   color: #666666;
 }
 .mid .ad2 .content {
   margin: auto;
-  width: 98.4rem;
-  margin-top: 2.4rem;
+  width: 9.11rem;
+  margin-top: 0.22rem;
   overflow: hidden;
 }
 .mid .ad2 .content .message {
   margin: 0px;
-  font-size: 4.8rem;
+  font-size: 0.44rem;
   color: #212121;
 }
 .mid .ad2 .content div {
-  font-size: 3.6rem;
+  font-size: 0.33rem;
 }
-.mid .ad2 .content div i {
+.mid .ad2 .content div img {
   float: left;
-  margin-right: 2.6rem;
-}
-.mid .ad2 .content div .iconfont1 {
-  color: #44d48b;
-}
-.mid .ad2 .content div .iconfont2 {
-  color: #4ea1ff;
-}
-.mid .ad2 .content div .iconfont3 {
-  color: #ff7660;
+  margin-right: 0.24rem;
+  width: 0.33rem;
+  height: 0.33rem;
 }
 .mid .ad2 .content div .how {
   float: left;
@@ -267,24 +261,93 @@ body {
 }
 .mid .ad2 .bottom {
   overflow: hidden;
-  font-size: 3.6rem;
-  margin-top: 5.4rem;
-  margin-bottom: 2.5rem;
+  font-size: 0.33rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.23rem;
 }
 .mid .ad2 .bottom .apply {
-  margin-left: 9.7rem;
+  margin-left: 0.89rem;
 }
 .mid .ad2 .bottom .review {
-  margin-left: 7.4rem;
+  margin-left: 0.68rem;
 }
 .mid .ad2 .bottom .like {
-  margin-left: 11rem;
+  margin-left: 1.01rem;
 }
 .mid .ad2 .bottom div {
   float: left;
-  width: 26.2rem;
+  width: 2.42rem;
 }
 .mid .ad2 .bottom div span {
-  margin-left: 3rem;
-  margin-right: 9.8rem;
+  margin-right: 0.9rem;
+}
+@media only screen and (max-width: 350px) {
+  .mid .ad2 .bottom div span {
+    margin-right: 0.75rem;
+  }
+}
+.background {
+  display: none;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(16, 14, 14, 0.2);
+  margin-top: 0px;
+}
+#screen {
+  position: absolute;
+  top: 1.99rem;
+  right: 0rem;
+  width: 5rem;
+  height: 100%;
+  background-color: #fff;
+}
+#screen ul {
+  list-style: none;
+}
+#screen a {
+  text-decoration: none;
+}
+#screen #choose {
+  float: right;
+  margin-top: 0.41rem;
+}
+#screen #choose a {
+  margin-right: 0.46rem;
+  font-size: 0.33rem;
+  color: #666666;
+}
+#screen #choose a :hover {
+  color: #8dda5e;
+}
+#screen #nav_t {
+  margin-top: 1.11rem;
+}
+#screen #nav_t ul {
+  padding: 0px;
+}
+#screen #nav_t ul #nav_one {
+  border-bottom: 0.024rem solid #cccccc;
+}
+#screen #nav_t ul li span {
+  width: 100%;
+  font-size: 0.44rem;
+  color: #212121;
+  line-height: 0.85rem;
+  margin-left: 0.29rem;
+}
+#screen #nav_t ul li ul {
+  display: none;
+  background-color: #eeeeee;
+}
+#screen #nav_t ul li ul li {
+  border-top: 0.024rem solid #cccccc;
+}
+#screen #nav_t ul li ul li a {
+  margin-left: 0.37rem;
+  font-size: 0.33rem;
+  color: #444444;
+  line-height: 0.89rem;
 }

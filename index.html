@@ -5,20 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>约</title>
 	<link href="css/index.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="flexible.js"></script>
 </head>
 <body>
 	<div class="header">
 		<div class="empty"></div>
 		<div class="header_top">
 			<span class="title">一起约</span>
-			<a href="" class="header_function" id="header_write">
-				<i class="iconfont">&#xe600</i>
+			<a href="" class="header_function" id="header_findlist">
+				<img src="image/findlist.png" alt="">
 			</a>
 			<a href="" class="header_function" id="header_find">
-				<i class="iconfont">&#xe608</i>
+				<img src="image/find.png" alt="">
 			</a>
-			<a href="" class="header_function" id="header_findlist">
-				<i class="iconfont">&#xe609</i>
+			<a href="" class="header_function" id="header_write">
+				<img src="image/header_write.png" alt="">
 			</a>
 		</div>
 		<div class="nav">
@@ -40,7 +41,7 @@
 				<div class="deta">
 					<div>
 						<span class="name">刘晓庆</span>
-						<i class="iconfont">&#xe605;</i>
+						<img src="image/lady.png" alt="">
 						<span class="category">吃饭</span>
 					</div>
 					<p class="sign">生命不息，折腾不止</p>
@@ -49,15 +50,15 @@
 			<div class="content">
 				<p class="message">下午一起去吃饭，有约的吗？</p>
 				<div>
-					<i class="iconfont1">&#xe606;</i>
+					<img src="image/when.png" alt="">
 					<p class="when">6:00</p>
 				</div>
 				<div>
-					<i class="iconfont2">&#xe602;</i>
+					<img src="image/where.png" alt="">
 					<p class="where">老校门口</p>
 				</div>
 				<div>
-					<i class="iconfont3">&#xe601;</i>
+					<img src="image/how.png" alt="">
 					<span class="how">我请客</span>
 					<span>3分钟前</span>
 				</div>
@@ -80,7 +81,7 @@
 				<div class="deta">
 					<div>
 						<span class="name">姜文</span>
-						<i class="iconfont">&#xe604;</i>
+						<img src="image/man.png" alt="">
 						<span class="category">电影</span>
 					</div>
 					<p class="sign">生命不息，折腾不止</p>
@@ -88,17 +89,18 @@
 			</div>
 			<div class="content">
 				<p class="message">下午一起去拍电影，来当我的女主角吧？</p>
-				<div>	
-					<i class="iconfont1">&#xe606;</i>
+								<div>
+					<img src="image/when.png" alt="">
 					<p class="when">6:00</p>
-				</div>	
+				</div>
 				<div>
-					<i class="iconfont2">&#xe602;</i>
+					<img src="image/where.png" alt="">
 					<p class="where">老校门口</p>
-				</div>	
+				</div>
 				<div>
-					<i class="iconfont3">&#xe601;</i>
-					<p class="how">我请客</p>
+					<img src="image/how.png" alt="">
+					<span class="how">我请客</span>
+					<span>3分钟前</span>
 				</div>
 			</div>
 			<div class="bottom">
@@ -114,5 +116,58 @@
 			</div>
 		</div> 
 	</div>
+	<div class="background" id="background">
+		<div id="screen" style="display：none">
+			<div id="choose">
+				<a href="" id="cancel">取消</a>
+				<a href="" id="sure">确定</a>
+			</div>
+			<div class="nav_t" id="nav_t">
+				<ul>
+					<li id="nav_one">
+						<span href="">
+							请选择约会类型
+							<img src="" alt="">
+						</span>
+						<ul id="nav_tow">
+							<li><a href="">运动</a></li>
+							<li><a href="">拼车</a></li>
+							<li><a href="">娱乐</a></li>
+							<li><a href="">自习</a></li>
+							<li><a href="">棋牌</a></li>
+							<li><a href="">吃饭</a></li>
+							<li><a href="">旅游</a></li>
+							<li><a href="">其他</a></li>
+						</ul>
+					</li>
+					<li id="nav_one">
+						<span href="">
+							排序方式
+							<img src="" alt="">
+						</span>
+					</li>
+					<li id="nav_one">
+						<span href="">
+							性别
+							<img src="" alt="">
+						</span>
+					</li>
+					<li id="nav_one">
+						<span href="">
+							消费
+							<img src="" alt="">
+						</span>
+					</li>
+					<li id="nav_one">
+						<span href="">
+							时间
+							<img src="" alt="">
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </body>
+<script type="text/javascript" src="index.js"></script>
 </html>
